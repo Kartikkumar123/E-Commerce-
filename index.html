@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form </title>
+    <link rel="stylesheet" href="./src/Stylesheet/login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+<br>
+<form method ="post" action="LoginForm">
+    <div class="container">
+        <h2 class="t-center">Login Page</h2>
+            <div>
+                <label >Email</label>
+                <div class="userArea">
+                    <i class="fa-solid fa-user"></i><input type="email" name="email" 
+                        placeholder="Enter Email id">
+                </div>
+                <hr>
+                
+            </div>
+            <div class="inputDiv">
+                <label >Password</label>
+                <div>
+                    <i class="fa-solid fa-key"></i><input type="password" name="pass" 
+                        placeholder="Type your password">
+                </div>
+                <hr>
+            </div>
+<br>
+            <span class="forgotPassword" ><a href="#" style="color:black;" ><h5>Forgot password?</h5></a></span>
+            <button type="submit"  value="login" class="btn">Login</button>
+            
+            <div class="formBottom">
+                <p>Or Sign Up using</p>
+                <ul class="flexUl">
+                    <a href="https://www.faceboook.com" target="_blank">
+                        <li><i class="fa-brands fa-facebook-f"></i></li>
+                    </a>&nbsp; &nbsp;
+                    <a href="https://www.twitter.com" target="_blank">
+                        <li><i class="fa-brands fa-twitter"></i></li>
+                    </a>
+                    &nbsp; &nbsp;
+                    <a href="https://www.google.com" target="_blank">
+                        <li><i class="fa-brands fa-google"></i></li>
+                    </a>
+                </ul>
+                <a href="./src/Script/Signup.html" style="color:green;">SIGN UP</a>
+                <br>
+                <p class="signUp">Have a nice day..</p>
+
+            </div>
+        
+    </div>
+    </form>
+</body>
+</html>
